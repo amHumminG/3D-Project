@@ -1,0 +1,12 @@
+# Blender 4.1.0 MTL File: 'baseball bat.blend'
+# www.blender.org
+
+newmtl taco_de_baseball
+Ns 293.402802
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd Pictures/l/blender/clowns/textura/taco de baseball.png

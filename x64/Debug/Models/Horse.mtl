@@ -1,0 +1,52 @@
+# Blender 3.6.1 MTL File: 'HorseRiggedConnected.blend'
+# www.blender.org
+
+newmtl Brown
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Dateien/Unboring Future/Unboring Studios/unboring_studios/LowPoly/Animals/Horses/HorseArmor/MaterialBrown.png
+
+newmtl BrownWhite
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Dateien/Unboring Future/Unboring Studios/unboring_studios/LowPoly/Animals/Horses/HorseArmor/MaterialBrownWhite.png
+
+newmtl Gray
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Dateien/Unboring Future/Unboring Studios/unboring_studios/LowPoly/Animals/Horses/HorseArmor/MaterialGray.png
+
+newmtl Lightbrown
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Dateien/Unboring Future/Unboring Studios/unboring_studios/LowPoly/Animals/Horses/HorseArmor/MaterialLightBrown.png
+
+newmtl White
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Dateien/Unboring Future/Unboring Studios/unboring_studios/LowPoly/Animals/Horses/HorseArmor/MaterialWhite.png
