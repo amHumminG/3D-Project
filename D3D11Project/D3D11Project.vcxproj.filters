@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Classes">
+      <UniqueIdentifier>{d4a3a4bf-00fc-4395-b764-022c3a7d4724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Scene Management">
+      <UniqueIdentifier>{2051e6a7-821b-4794-b8e4-5c3a4af74352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{d8621914-395d-4ddc-a066-0641bcc814d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{968b22c4-4cc6-4dba-b34d-5423343d3b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{9be87066-66ca-4ba7-b631-fd9ff14fd79a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\Buffers">
+      <UniqueIdentifier>{3f9496fa-6042-4f70-b6e4-4491871eb8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Buffers">
+      <UniqueIdentifier>{61569b25-ad28-4dda-bdc7-c0769ab6896b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\Scene Management">
+      <UniqueIdentifier>{aff8af82-e8d5-4274-adce-cf0507d80365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Particle Shaders">
+      <UniqueIdentifier>{f138fca2-d7b8-4694-b929-af88b20a1ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Deferred Rendering">
+      <UniqueIdentifier>{855f95d4-3960-4a3f-8461-80a4a8abca73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Cube Mapping">
+      <UniqueIdentifier>{3a491a84-cc4a-4b87-a627-6d7864e24380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\LOD">
+      <UniqueIdentifier>{43fefd6f-f1c7-4878-98bc-e14afe74b489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\BundingBox Rendering">
+      <UniqueIdentifier>{323adcc5-785c-4a44-91ca-1896c838499f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ComputeShaderParticles.hlsl">
+      <Filter>Resource Files\Particle Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>Resource Files\Deferred Rendering</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShaderDeferred.hlsl">
+      <Filter>Resource Files\Deferred Rendering</Filter>
+    </FxCompile>
+    <FxCompile Include="ComputeShader.hlsl">
+      <Filter>Resource Files\Deferred Rendering</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShaderCubeMap.hlsl">
+      <Filter>Resource Files\Cube Mapping</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShaderParticles.hlsl">
+      <Filter>Resource Files\Particle Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GeometryShaderParticles.hlsl">
+      <Filter>Resource Files\Particle Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShaderParticles.hlsl">
+      <Filter>Resource Files\Particle Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="HullShaderLOD.hlsl">
+      <Filter>Resource Files\LOD</Filter>
+    </FxCompile>
+    <FxCompile Include="DomainShaderLOD.hlsl">
+      <Filter>Resource Files\LOD</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShaderBB.hlsl">
+      <Filter>Resource Files\BundingBox Rendering</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShaderBB.hlsl">
+      <Filter>Resource Files\BundingBox Rendering</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraD3D11.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowHelper.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="PipelineHelper.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectHelper.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHelper.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11Helper.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshD3D11.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SubMeshD3D11.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="InputLayoutD3D11.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderHelper.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTargetD3D11.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderResourceTextureD3D11.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SamplerD3D11.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLightCollectionD3D11.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderD3D11.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBufferD3D11.cpp">
+      <Filter>Source Files\Classes\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthBufferD3D11.cpp">
+      <Filter>Source Files\Classes\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBufferD3D11.cpp">
+      <Filter>Source Files\Classes\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferD3D11.cpp">
+      <Filter>Source Files\Classes\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="StructuredBufferD3D11.cpp">
+      <Filter>Source Files\Classes\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryBuffer.cpp">
+      <Filter>Source Files\Classes\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObjectReflective.cpp">
+      <Filter>Source Files\Classes\Scene Management</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject.cpp">
+      <Filter>Source Files\Classes\Scene Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Classes\Scene Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Particles.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>Source Files\Classes\Scene Management</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CameraD3D11.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject.h">
+      <Filter>Header Files\Classes\Scene Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Classes\Scene Management</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowHelper.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHelper.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Helper.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectHelper.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineHelper.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderHelper.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshD3D11.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SubMeshD3D11.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLayoutD3D11.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTargetD3D11.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderResourceTextureD3D11.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SamplerD3D11.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderD3D11.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLightCollectionD3D11.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJ_Loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBufferD3D11.h">
+      <Filter>Header Files\Classes\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthBufferD3D11.h">
+      <Filter>Header Files\Classes\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBufferD3D11.h">
+      <Filter>Header Files\Classes\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="StructuredBufferD3D11.h">
+      <Filter>Header Files\Classes\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferD3D11.h">
+      <Filter>Header Files\Classes\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryBuffer.h">
+      <Filter>Header Files\Classes\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObjectReflective.h">
+      <Filter>Header Files\Classes\Scene Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Classes\Scene Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Particles.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>Header Files\Classes\Scene Management</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

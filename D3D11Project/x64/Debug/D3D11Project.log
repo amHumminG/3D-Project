@@ -1,0 +1,267 @@
+﻿  compilation object save succeeded; see D:\Code\D3D11Project\x64\Debug\ComputeShader.cso
+  compilation object save succeeded; see D:\Code\D3D11Project\x64\Debug\ComputeShaderParticles.cso
+  compilation object save succeeded; see D:\Code\D3D11Project\x64\Debug\DomainShaderLOD.cso
+  compilation object save succeeded; see D:\Code\D3D11Project\x64\Debug\GeometryShaderParticles.cso
+  compilation object save succeeded; see D:\Code\D3D11Project\x64\Debug\HullShaderLOD.cso
+  compilation object save succeeded; see D:\Code\D3D11Project\x64\Debug\PixelShaderBB.cso
+  compilation object save succeeded; see D:\Code\D3D11Project\x64\Debug\PixelShaderCubeMap.cso
+D:\Code\D3D11Project\D3D11Project\PixelShaderDeferred.hlsl(32,5-52): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see D:\Code\D3D11Project\x64\Debug\PixelShaderDeferred.cso
+  compilation object save succeeded; see D:\Code\D3D11Project\x64\Debug\PixelShaderParticles.cso
+D:\Code\D3D11Project\D3D11Project\VertexShader.hlsl(27,5-24): warning X3206: implicit truncation of vector type
+D:\Code\D3D11Project\D3D11Project\VertexShader.hlsl(28,5-35): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see D:\Code\D3D11Project\x64\Debug\VertexShader.cso
+  compilation object save succeeded; see D:\Code\D3D11Project\x64\Debug\VertexShaderBB.cso
+  compilation object save succeeded; see D:\Code\D3D11Project\x64\Debug\VertexShaderParticles.cso
+  CameraD3D11.cpp
+  ConstantBufferD3D11.cpp
+  D3D11Helper.cpp
+  DepthBufferD3D11.cpp
+D:\Code\D3D11Project\D3D11Project\DepthBufferD3D11.cpp(68,20): warning C4018: '<': signed/unsigned mismatch
+  GeometryBuffer.cpp
+  IndexBufferD3D11.cpp
+D:\Code\D3D11Project\D3D11Project\IndexBufferD3D11.cpp(24,42): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+  InputHelper.cpp
+D:\Code\D3D11Project\D3D11Project\Scene.h(88,85): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'InputHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(145,85): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'InputHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(197,39): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'InputHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(207,63): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'InputHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(213,63): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'InputHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(241,61): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'InputHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(298,28): warning C4267: 'return': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'InputHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(303,38): warning C4267: 'return': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'InputHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\QuadTree.h(137,22): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'InputHelper.cpp')
+  D:\Code\D3D11Project\D3D11Project\QuadTree.h(137,22):
+  the template instantiation context (the oldest one first) is
+  	D:\Code\D3D11Project\D3D11Project\Scene.h(27,24):
+  	see reference to class template instantiation 'QuadTree<SceneObject>' being compiled
+  	D:\Code\D3D11Project\D3D11Project\QuadTree.h(219,1):
+  	while compiling class template member function 'void QuadTree<SceneObject>::initialize(float)'
+  		D:\Code\D3D11Project\D3D11Project\Scene.h(92,34):
+  		see the first reference to 'QuadTree<SceneObject>::initialize' in 'Scene::Initialize'
+  	D:\Code\D3D11Project\D3D11Project\QuadTree.h(82,1):
+  	while compiling class template member function 'void QuadTree<SceneObject>::AddToNode(const T *,const DirectX::BoundingBox &,std::unique_ptr<QuadTree<T>::Node,std::default_delete<QuadTree<T>::Node>> &)'
+          with
+          [
+              T=SceneObject
+          ]
+  		D:\Code\D3D11Project\D3D11Project\QuadTree.h(234,11):
+  		see the first reference to 'QuadTree<SceneObject>::AddToNode' in 'QuadTree<SceneObject>::AddElement'
+  		D:\Code\D3D11Project\D3D11Project\Scene.h(102,35):
+  		see the first reference to 'QuadTree<SceneObject>::AddElement' in 'Scene::Finalize'
+  
+D:\Code\D3D11Project\D3D11Project\QuadTree.h(182,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'InputHelper.cpp')
+  D:\Code\D3D11Project\D3D11Project\QuadTree.h(182,21):
+  the template instantiation context (the oldest one first) is
+  	D:\Code\D3D11Project\D3D11Project\QuadTree.h(167,1):
+  	while compiling class template member function 'void QuadTree<SceneObject>::CheckNode(const DirectX::BoundingFrustum &,const std::unique_ptr<QuadTree<SceneObject>::Node,std::default_delete<QuadTree<SceneObject>::Node>> &,std::vector<const T *,std::allocator<const T *>> &)'
+          with
+          [
+              T=SceneObject
+          ]
+  		D:\Code\D3D11Project\D3D11Project\QuadTree.h(242,11):
+  		see the first reference to 'QuadTree<SceneObject>::CheckNode' in 'QuadTree<SceneObject>::CheckTree'
+  		D:\Code\D3D11Project\D3D11Project\Scene.h(172,52):
+  		see the first reference to 'QuadTree<SceneObject>::CheckTree' in 'Scene::DrawObjects'
+  
+  InputLayoutD3D11.cpp
+  main.cpp
+D:\Code\D3D11Project\D3D11Project\Scene.h(88,85): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(145,85): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(197,39): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(207,63): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(213,63): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(241,61): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(298,28): warning C4267: 'return': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(303,38): warning C4267: 'return': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\main.cpp(187,72): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Code\D3D11Project\D3D11Project\QuadTree.h(137,22): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  D:\Code\D3D11Project\D3D11Project\QuadTree.h(137,22):
+  the template instantiation context (the oldest one first) is
+  	D:\Code\D3D11Project\D3D11Project\Scene.h(27,24):
+  	see reference to class template instantiation 'QuadTree<SceneObject>' being compiled
+  	D:\Code\D3D11Project\D3D11Project\QuadTree.h(219,1):
+  	while compiling class template member function 'void QuadTree<SceneObject>::initialize(float)'
+  		D:\Code\D3D11Project\D3D11Project\Scene.h(92,34):
+  		see the first reference to 'QuadTree<SceneObject>::initialize' in 'Scene::Initialize'
+  	D:\Code\D3D11Project\D3D11Project\QuadTree.h(82,1):
+  	while compiling class template member function 'void QuadTree<SceneObject>::AddToNode(const T *,const DirectX::BoundingBox &,std::unique_ptr<QuadTree<T>::Node,std::default_delete<QuadTree<T>::Node>> &)'
+          with
+          [
+              T=SceneObject
+          ]
+  		D:\Code\D3D11Project\D3D11Project\QuadTree.h(234,11):
+  		see the first reference to 'QuadTree<SceneObject>::AddToNode' in 'QuadTree<SceneObject>::AddElement'
+  		D:\Code\D3D11Project\D3D11Project\Scene.h(102,35):
+  		see the first reference to 'QuadTree<SceneObject>::AddElement' in 'Scene::Finalize'
+  
+D:\Code\D3D11Project\D3D11Project\QuadTree.h(182,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  D:\Code\D3D11Project\D3D11Project\QuadTree.h(182,21):
+  the template instantiation context (the oldest one first) is
+  	D:\Code\D3D11Project\D3D11Project\QuadTree.h(167,1):
+  	while compiling class template member function 'void QuadTree<SceneObject>::CheckNode(const DirectX::BoundingFrustum &,const std::unique_ptr<QuadTree<SceneObject>::Node,std::default_delete<QuadTree<SceneObject>::Node>> &,std::vector<const T *,std::allocator<const T *>> &)'
+          with
+          [
+              T=SceneObject
+          ]
+  		D:\Code\D3D11Project\D3D11Project\QuadTree.h(242,11):
+  		see the first reference to 'QuadTree<SceneObject>::CheckNode' in 'QuadTree<SceneObject>::CheckTree'
+  		D:\Code\D3D11Project\D3D11Project\Scene.h(172,52):
+  		see the first reference to 'QuadTree<SceneObject>::CheckTree' in 'Scene::DrawObjects'
+  
+  MeshD3D11.cpp
+D:\Code\D3D11Project\D3D11Project\MeshD3D11.cpp(5,87): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\MeshD3D11.cpp(5,53): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  Object.cpp
+D:\Code\D3D11Project\D3D11Project\OBJ_Loader.h(949,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Object.cpp')
+  
+  ObjectHelper.cpp
+D:\Code\D3D11Project\D3D11Project\ObjectHelper.cpp(32,81): warning C4244: 'argument': conversion from 'const UINT' to 'float', possible loss of data
+D:\Code\D3D11Project\D3D11Project\ObjectHelper.cpp(32,74): warning C4244: 'argument': conversion from 'const UINT' to 'float', possible loss of data
+  Particles.cpp
+D:\Code\D3D11Project\D3D11Project\Particles.cpp(11,20): warning C4018: '<': signed/unsigned mismatch
+D:\Code\D3D11Project\D3D11Project\Particles.cpp(19,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Code\D3D11Project\D3D11Project\Particles.cpp(36,38): warning C4244: 'argument': conversion from 'float' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\Particles.cpp(55,45): warning C4267: 'return': conversion from 'size_t' to 'UINT', possible loss of data
+  PipelineHelper.cpp
+  RenderHelper.cpp
+D:\Code\D3D11Project\D3D11Project\Scene.h(88,85): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'RenderHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(145,85): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'RenderHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(197,39): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'RenderHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(207,63): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'RenderHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(213,63): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'RenderHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(241,61): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'RenderHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(298,28): warning C4267: 'return': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'RenderHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\Scene.h(303,38): warning C4267: 'return': conversion from 'size_t' to 'UINT', possible loss of data
+  (compiling source file 'RenderHelper.cpp')
+  
+D:\Code\D3D11Project\D3D11Project\RenderHelper.cpp(45,59): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\RenderHelper.cpp(149,48): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\RenderHelper.cpp(174,53): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\RenderHelper.cpp(182,59): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\RenderHelper.cpp(324,20): warning C4018: '<': signed/unsigned mismatch
+D:\Code\D3D11Project\D3D11Project\QuadTree.h(137,22): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'RenderHelper.cpp')
+  D:\Code\D3D11Project\D3D11Project\QuadTree.h(137,22):
+  the template instantiation context (the oldest one first) is
+  	D:\Code\D3D11Project\D3D11Project\Scene.h(27,24):
+  	see reference to class template instantiation 'QuadTree<SceneObject>' being compiled
+  	D:\Code\D3D11Project\D3D11Project\QuadTree.h(219,1):
+  	while compiling class template member function 'void QuadTree<SceneObject>::initialize(float)'
+  		D:\Code\D3D11Project\D3D11Project\Scene.h(92,34):
+  		see the first reference to 'QuadTree<SceneObject>::initialize' in 'Scene::Initialize'
+  	D:\Code\D3D11Project\D3D11Project\QuadTree.h(82,1):
+  	while compiling class template member function 'void QuadTree<SceneObject>::AddToNode(const T *,const DirectX::BoundingBox &,std::unique_ptr<QuadTree<T>::Node,std::default_delete<QuadTree<T>::Node>> &)'
+          with
+          [
+              T=SceneObject
+          ]
+  		D:\Code\D3D11Project\D3D11Project\QuadTree.h(234,11):
+  		see the first reference to 'QuadTree<SceneObject>::AddToNode' in 'QuadTree<SceneObject>::AddElement'
+  		D:\Code\D3D11Project\D3D11Project\Scene.h(102,35):
+  		see the first reference to 'QuadTree<SceneObject>::AddElement' in 'Scene::Finalize'
+  
+D:\Code\D3D11Project\D3D11Project\QuadTree.h(182,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'RenderHelper.cpp')
+  D:\Code\D3D11Project\D3D11Project\QuadTree.h(182,21):
+  the template instantiation context (the oldest one first) is
+  	D:\Code\D3D11Project\D3D11Project\QuadTree.h(167,1):
+  	while compiling class template member function 'void QuadTree<SceneObject>::CheckNode(const DirectX::BoundingFrustum &,const std::unique_ptr<QuadTree<SceneObject>::Node,std::default_delete<QuadTree<SceneObject>::Node>> &,std::vector<const T *,std::allocator<const T *>> &)'
+          with
+          [
+              T=SceneObject
+          ]
+  		D:\Code\D3D11Project\D3D11Project\QuadTree.h(242,11):
+  		see the first reference to 'QuadTree<SceneObject>::CheckNode' in 'QuadTree<SceneObject>::CheckTree'
+  		D:\Code\D3D11Project\D3D11Project\Scene.h(172,52):
+  		see the first reference to 'QuadTree<SceneObject>::CheckTree' in 'Scene::DrawObjects'
+  
+  RenderTargetD3D11.cpp
+  SamplerD3D11.cpp
+  SceneObject.cpp
+D:\Code\D3D11Project\D3D11Project\SceneObject.cpp(84,88): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\SceneObject.cpp(273,60): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\SceneObject.cpp(280,60): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\SceneObject.cpp(287,60): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\SceneObject.cpp(294,56): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\SceneObject.cpp(326,60): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  SceneObjectReflective.cpp
+D:\Code\D3D11Project\D3D11Project\SceneObjectReflective.cpp(202,25): warning C4244: '=': conversion from 'UINT' to 'FLOAT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\SceneObjectReflective.cpp(203,26): warning C4244: '=': conversion from 'UINT' to 'FLOAT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\SceneObjectReflective.cpp(505,60): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\SceneObjectReflective.cpp(512,60): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\SceneObjectReflective.cpp(519,60): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\SceneObjectReflective.cpp(526,56): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  ShaderD3D11.cpp
+  Generating Code...
+  Compiling...
+  ShaderResourceTextureD3D11.cpp
+  SpotLightCollectionD3D11.cpp
+D:\Code\D3D11Project\D3D11Project\SpotLightCollectionD3D11.cpp(23,21): warning C4244: 'initializing': conversion from 'UINT' to 'float', possible loss of data
+D:\Code\D3D11Project\D3D11Project\SpotLightCollectionD3D11.cpp(51,107): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\SpotLightCollectionD3D11.cpp(64,30): warning C4267: 'return': conversion from 'size_t' to 'UINT', possible loss of data
+  StructuredBufferD3D11.cpp
+D:\Code\D3D11Project\D3D11Project\StructuredBufferD3D11.cpp(24,39): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\StructuredBufferD3D11.cpp(62,33): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\StructuredBufferD3D11.cpp(78,32): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+  SubMeshD3D11.cpp
+D:\Code\D3D11Project\D3D11Project\SubMeshD3D11.cpp(17,36): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Code\D3D11Project\D3D11Project\SubMeshD3D11.cpp(17,23): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  VertexBufferD3D11.cpp
+  WindowHelper.cpp
+  Generating Code...
+  LINK : D:\Code\D3D11Project\x64\Debug\D3D11Project.exe not found or not built by the last incremental link; performing full link
+  D3D11Project.vcxproj -> D:\Code\D3D11Project\x64\Debug\D3D11Project.exe

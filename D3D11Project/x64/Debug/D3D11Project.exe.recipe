@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\Code\D3D11Project\x64\Debug\D3D11Project.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\Code\D3D11Project\x64\Debug\ComputeShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Code\D3D11Project\x64\Debug\HullShaderLOD.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Code\D3D11Project\x64\Debug\ComputeShaderParticles.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Code\D3D11Project\x64\Debug\DomainShaderLOD.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Code\D3D11Project\x64\Debug\GeometryShaderParticles.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Code\D3D11Project\x64\Debug\PixelShaderBB.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Code\D3D11Project\x64\Debug\PixelShaderCubeMap.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Code\D3D11Project\x64\Debug\PixelShaderDeferred.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Code\D3D11Project\x64\Debug\PixelShaderParticles.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Code\D3D11Project\x64\Debug\VertexShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Code\D3D11Project\x64\Debug\VertexShaderBB.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Code\D3D11Project\x64\Debug\VertexShaderParticles.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
