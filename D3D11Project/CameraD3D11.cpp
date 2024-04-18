@@ -130,9 +130,9 @@ bool CameraD3D11::UpdateInternalConstantBuffer(ID3D11DeviceContext* context)
 	DirectX::XMMATRIX vpMatrixXM = DirectX::XMLoadFloat4x4(&vpMatrix);
 	vpMatrixXM = DirectX::XMMatrixTranspose(vpMatrixXM);
 	// Update the frustum
-	//DirectX::BoundingFrustum::CreateFromMatrix(this->frustum, vpMatrixXM);
+	DirectX::BoundingFrustum::CreateFromMatrix(this->frustum, vpMatrixXM);
 
-	this->frustum.Transform(this->frustum, vpMatrixXM);
+	//this->frustum.Transform(this->frustum, vpMatrixXM);
 	//this->frustum.Origin = DirectX::XMFLOAT3(position.x, position.y, position.z);
 	//this->frustum.Orientation = DirectX::XMFLOAT4(forward.x, forward.y, forward.z, 1.0f);
 	//this->frustum.RightSlope = projInfo.aspectRatio;
